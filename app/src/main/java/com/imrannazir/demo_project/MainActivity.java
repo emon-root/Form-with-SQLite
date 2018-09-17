@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if( name.getText().toString().isEmpty() || name.getText().toString().length() < 4){
                     Toast.makeText(MainActivity.this, "Please Enter you valid name.", Toast.LENGTH_LONG).show();
-                }else if( email.getText().toString().isEmpty() || name.getText().toString().length() < 5){
+                }else if( email.getText().toString().isEmpty() || email.getText().toString().length() < 5){
                     Toast.makeText(MainActivity.this, "Please Enter you valid email.", Toast.LENGTH_LONG).show();
                 }else if( phoneNumber.getText().toString().isEmpty() || phoneNumber.getText().toString().length() <= 10){
                     Toast.makeText(MainActivity.this, "Please Enter you valid phone number.", Toast.LENGTH_LONG).show();
