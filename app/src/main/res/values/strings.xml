@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo_Imran</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_data">Add Data</string>
+    <string name="simple_form">Simple Form</string>
+    <string name="id">ID</string>
+    <string name="phone">Phone</string>
+</resources>
